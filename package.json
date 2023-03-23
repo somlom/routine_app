@@ -1,0 +1,11 @@
+{
+    "name": "routine_app",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {},
+    "dependencies": {},
+    "main": "index.js",
+    "repository": "https://github.com/supersnus/routine_app.git",
+    "author": "Your Name <you@example.com>",
+    "license": "MIT"
+}
