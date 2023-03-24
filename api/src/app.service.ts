@@ -3,23 +3,23 @@ import { TaskDto } from './interfaces/taskDto';
 
 @Injectable()
 export class AppService {
-  getTasks(): string {
-    return 'Hello World!';
-  }
+    getTasks(): string {
+        return 'Hello World!';
+    }
 
-  getTask(task: string): string {
-    return task;
-  }
+    getTask(task: string): string {
+        return task;
+    }
 
-  createTask(taskDto: TaskDto): TaskDto {
-    return taskDto;
-  }
+    createTask(taskDto: TaskDto): TaskDto {
+        return taskDto;
+    }
 
-  updateTask(taskDto: TaskDto): TaskDto {
-    return taskDto;
-  }
+    updateTask(taskDto: TaskDto): TaskDto {
+        return taskDto;
+    }
 
-  deleteTask(task: string): string {
-    return task;
-  }
+    deleteTask(task: string): string {
+        return task;
+    }
 }
